@@ -25,11 +25,11 @@ export default function Home() {
       "Sure ka ba 🤔?",
       "Bawal to 🫣?",
       "Mag-Yes ka naman 💔",
-      "Pwetty please 🥺👉👈",
+      "Pretty please 🥺👉👈",
       "Ayoko nga 😂",
       "Luh 🙄",
       "ENGGGGGK ❌",
-      "Is not giving 💅"
+      "Para kang kalaban 💅"
     ];
 
     const randomIndex = Math.floor(Math.random() * phrases.length);
@@ -44,7 +44,7 @@ export default function Home() {
     <div className="container">
       <section>
         <div>
-          <p>♡ Hazel will you be my Valentine? ♡</p>
+          <p>♡ Noah, wanna hang out this Valentine? ♡</p>
         </div>
         <div className="img-container">
           {image ? (
